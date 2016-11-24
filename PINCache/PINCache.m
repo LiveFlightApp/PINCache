@@ -7,7 +7,7 @@
 #import "PINOperationQueue.h"
 #import "PINOperationGroup.h"
 
-static NSString * const PINCachePrefix = @"com.pinterest.PINCache";
+static NSString * const PINCachePrefix = @"lf_cached_data";
 static NSString * const PINCacheSharedName = @"PINCacheShared";
 
 @interface PINCache ()
