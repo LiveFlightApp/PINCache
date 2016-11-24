@@ -16,7 +16,7 @@
 [[NSString stringWithUTF8String:__FILE__] lastPathComponent], \
 __LINE__, [error localizedDescription]); }
 
-static NSString * const PINDiskCachePrefix = @"com.pinterest.PINDiskCache";
+static NSString * const PINDiskCachePrefix = @"lf_cached_data";
 static NSString * const PINDiskCacheSharedName = @"PINDiskCacheShared";
 
 static NSString * const PINDiskCacheOperationIdentifierTrimToDate = @"PINDiskCacheOperationIdentifierTrimToDate";
